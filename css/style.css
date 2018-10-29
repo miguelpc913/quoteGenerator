@@ -1,0 +1,39 @@
+.quote , .author {
+  color: black;}
+button {
+  font-family: 'Atomic Age', serif;
+}
+h1{
+  font-family: 'Atomic Age', cursive;
+  font-size:3.5rem;
+}
+.quotes {
+ width: 70%;
+ margin-left: 15%;
+ margin-top: 10%;
+ font-size: 30px;
+}
+.author {
+  float: right;
+  font-family: 'Orbitron', cursive;
+  }
+.quote {
+  font-family: 'Russo One', cursive;
+}
+body{
+  transition: background 2s;
+}
+.container {
+  margin-top: 10%
+}
+
+button:hover{
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+}
+
+}
+button:active {
+transform: translateY(4px);
+}
